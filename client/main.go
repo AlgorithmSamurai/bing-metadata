@@ -2,6 +2,7 @@ package main
 
 import (
 	"archive/zip"
+	"bing-metadata/metadata"
 	"bytes"
 	"fmt"
 	"io/ioutil"
@@ -11,7 +12,6 @@ import (
 	"os"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/blackhat-go/bhg/ch-3/bing-metadata/metadata"
 )
 
 func handler(i int, s *goquery.Selection) {
